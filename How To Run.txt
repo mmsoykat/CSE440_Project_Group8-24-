@@ -1,0 +1,24 @@
+Do it step by step to run the Project
+
+1. Install Anaconda
+
+2.Downlod the files and unzip it
+
+3.Open Anaconda Prompt
+
+4.Go to the unzip file location from the prompt
+
+5.Creat Environment by pasting this command 1 by 1
+  conda creat -n yolov11 python=3.11 -y
+  conda activate yolov11
+  pip install ultralytics
+  pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+6.run predict.py file by writing "python predict.py"
+{you can change the source in predict.py file by changing 0 for webcam} 
+
+7.you can find the result directory from the prompt 
+
+
+Google Drive Link- https://drive.google.com/file/d/18XGZ2e64PZNiKszQ2jUhqtdptURmE9Q4/view?usp=sharing
+
