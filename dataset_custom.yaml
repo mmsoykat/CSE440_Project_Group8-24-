@@ -1,0 +1,7 @@
+
+train: D:/Yolov11/train  # Path to the training images.
+val: D:/Yolov11/val      # Path to the validation images.
+
+nc: 3  # Number of classes.
+
+names: ["FIRE", "GAS", "LAVA"]
